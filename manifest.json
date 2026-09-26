@@ -1,0 +1,78 @@
+{
+  "id": "com.mourad.francecatalogs",
+  "version": "2.0.0",
+  "name": "France Catalogs",
+  "description": "Catalogues France + IMDb + historique/recommandations, avec affiches Posters+.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "fr_top20_movies_today",
+      "name": "🇫🇷 Top 20 films du jour — France"
+    },
+    {
+      "type": "series",
+      "id": "fr_top20_series_today",
+      "name": "🇫🇷 Top 20 séries du jour — France"
+    },
+    {
+      "type": "movie",
+      "id": "fr_streaming_releases",
+      "name": "🇫🇷 Sorties films France — streaming/Blu-ray"
+    },
+    {
+      "type": "series",
+      "id": "fr_series_releases",
+      "name": "🇫🇷 Sorties séries France"
+    },
+    {
+      "type": "movie",
+      "id": "imdb_top100_movies",
+      "name": "⭐ IMDb Top 100 films"
+    },
+    {
+      "type": "series",
+      "id": "imdb_top100_series",
+      "name": "⭐ IMDb Top 100 séries"
+    },
+    {
+      "type": "movie",
+      "id": "ai_recommendations_movies",
+      "name": "🤖 Recommandations IA — films"
+    },
+    {
+      "type": "series",
+      "id": "ai_recommendations_series",
+      "name": "🤖 Recommandations IA — séries"
+    },
+    {
+      "type": "movie",
+      "id": "history_movies",
+      "name": "👤 Selon ce que j'ai regardé — films"
+    },
+    {
+      "type": "series",
+      "id": "history_series",
+      "name": "👤 Selon ce que j'ai regardé — séries"
+    },
+    {
+      "type": "movie",
+      "id": "imdb_top250_movies",
+      "name": "🏆 IMDb Top 250 films"
+    },
+    {
+      "type": "series",
+      "id": "imdb_top250_series",
+      "name": "🏆 IMDb Top 250 séries"
+    }
+  ],
+  "behaviorHints": {
+    "configurable": true
+  }
+}
